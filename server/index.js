@@ -3,11 +3,11 @@
 const Glue = require('@hapi/glue');
 const Manifest = require('./manifest');
 require("appdynamics").profile({
-  controllerHostName: "ec2-52-13-44-12.us-west-2.compute.amazonaws.com",
+  controllerHostName: "",
   controllerPort: 8090,
   controllerSslEnabled: false, // Set to true if controllerPort is SSL
   accountName: "customer1",
-  accountAccessKey: "16ff4175-95c7-4c2f-807d-fb083e398055", //required
+  accountAccessKey: "", //required
   applicationName: "Teste_node_Hapi",
   tierName: "backend",
   nodeName: "doki",
